@@ -1,4 +1,4 @@
-#  daremos explicacion de los graficos a algunas tablas que hemos descubierto  
+#  daremos explicacion de los graficos y algunas tablas que hemos descubierto  
 
 <img width="1212" height="335" alt="image" src="https://github.com/user-attachments/assets/5a149663-3641-4c31-bbc6-c8eef9982042" />
 
