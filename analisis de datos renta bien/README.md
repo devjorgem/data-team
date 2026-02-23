@@ -1,4 +1,9 @@
 <img width="1212" height="335" alt="image" src="https://github.com/user-attachments/assets/5a149663-3641-4c31-bbc6-c8eef9982042" />
+
+
+
+
+
 #  hay precios muy exagerados en el dataframe
 aqui vemos los 10 registros  del 13% mas alto que se considera outliers
 
