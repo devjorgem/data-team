@@ -7,10 +7,19 @@ st.set_page_config(page_title="Dashboard Inmobiliario", layout="wide")
 # ==============================
 # CARGAR DATOS
 # ==============================
+
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("DB.csv")
-    return df
+    st.write("Archivos en la carpeta actual:")
+    st.write(os.listdir())
+    
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    st.write("BASE_DIR:", BASE_DIR)
+    st.write("Archivos en BASE_DIR:", os.listdir(BASE_DIR))
+    
+    file_path = os.path.join(BASE_DIR, "DB.csv")
+    return pd.read_csv(file_path)
 
 df_original = load_data()
 df = df_original.copy()
@@ -126,5 +135,6 @@ st.download_button(
     "text/csv"
 
 )
+
 
 
