@@ -9,7 +9,7 @@ st.set_page_config(page_title="Dashboard Inmobiliario", layout="wide")
 # ==============================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/cucutaventacasas.csv")
+    df = pd.read_csv("cucutaventacasas.csv")
     return df
 
 df_original = load_data()
@@ -126,3 +126,4 @@ st.download_button(
     "text/csv"
 
 )
+
